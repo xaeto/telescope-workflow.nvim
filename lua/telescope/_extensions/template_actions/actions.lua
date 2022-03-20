@@ -16,11 +16,8 @@ M.execute_method = function(prompt_bufnr)
     params[value] = input
   end
 
-  -- validate params
-  for key, param in pairs(params) do
-    if not method.params[key] then
-      return
-    end
+  if not params then
+    return
   end
 
   if type(method.pre) == "function" then
