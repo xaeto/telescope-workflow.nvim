@@ -1,6 +1,5 @@
 # telescope-template
-offers an interface for creating projects and files based
-on given templates.
+offers an interface for running actions through telescope.
 
 ## example
 
