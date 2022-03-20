@@ -1,4 +1,4 @@
-# telescope-template
+# telescope-template-actions.nvim
 offers an interface for running actions through telescope.
 
 ## example
