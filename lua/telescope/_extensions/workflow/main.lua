@@ -2,8 +2,8 @@ local actions = require "telescope.actions"
 local config = require("telescope.config").values
 local pickers = require "telescope.pickers"
 
-local _actions = require "telescope._extensions.template_actions.actions"
-local _finders = require "telescope._extensions.template_actions.finders"
+local _actions = require "telescope._extensions.workflow.actions"
+local _finders = require "telescope._extensions.workflow.finders"
 
 local M = {}
 

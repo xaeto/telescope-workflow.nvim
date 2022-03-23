@@ -3,7 +3,7 @@ local Path = require "plenary.path"
 local M = {}
 local store = {}
 
-M.insert_template = function(template)
+M.register = function(template)
   table.insert(store, template)
 end
 

@@ -2,7 +2,7 @@ local finders = require "telescope.finders"
 local entry_display = require "telescope.pickers.entry_display"
 local strings = require "plenary.strings"
 local action_state = require "telescope.actions.state"
-local utils = require "telescope._extensions.template_actions.utils"
+local utils = require "telescope._extensions.workflow.utils"
 
 local M = {}
 

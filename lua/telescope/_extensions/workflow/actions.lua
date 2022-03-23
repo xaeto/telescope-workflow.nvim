@@ -10,7 +10,7 @@ M.execute_method = function(prompt_bufnr)
 
   for paramName, paramOptions in pairs(method.params) do
     local param = paramOptions.text or paramName
-    
+
     local input 
     if paramOptions.type then
       input =  vim.fn.input(param .. ": ", "", paramOptions.type or "none") or ""
